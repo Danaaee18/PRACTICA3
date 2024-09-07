@@ -4,7 +4,16 @@
 int i;
 int main ()
 {
-printf("los números pares entre 0 y 100 son:%d\n ");
+printf("los números pares entre 0 y 100 son: ");
 
+for (i = 0; i <=100; i++)
+{
+ if (i % 2 == 0)
+ {
+   printf(" %d ", i);
+ }
+}
+
+printf("/n");
 return 0;
 }
