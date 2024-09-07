@@ -6,4 +6,5 @@ int main ()
 {
 printf("los números pares entre 0 y 100 son: ");
 
-for(i
+return 0;
+}
